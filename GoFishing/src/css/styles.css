@@ -1,0 +1,30 @@
+@import url(./normalize.css);
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border: dashed 1px white;
+}
+
+.btn{
+    margin: 10px;
+}
+
+body{
+    background-color: rgb(150, 105, 150);
+}
