@@ -1,2 +1,2 @@
 # Dom
-Clase 11-12, DOM para JavaScript
+Clase 11-17, DOM para JavaScript
