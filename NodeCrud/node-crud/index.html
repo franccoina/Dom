@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.scss">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Node Crud</title>
+</head>
+
+<body>
+  <header>
+    <div id="clueless" class="bg-success text-light text-center">Oe!</div>
+  </header>
+
+  <main class="container m-2">
+    <button type="button" id="btn-creator" class="btn btn-warning">
+      TYLER, THE CREATOR
+    </button>
+
+    <table class="table table-success table-striped table-hover table-bordered align-middle text-center">
+      <caption class="caption-top">List of Coders</caption>
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Name</th>
+          <th scope="col">Last Name</th>
+          <th scope="col">Email</th>
+          <th scope="col">Options</th>
+        </tr>
+      </thead>
+      <tbody class="table-group-divider">
+      </tbody>
+    </table>
+
+    <form id="form" action="./index.html" method="post">
+      <caption class="caption-top">Registering Coders</caption>
+      <div class="form-floating my-3">
+        <input type="text" class="form-control" id="username" name="username" placeholder="Username" required="true">
+        <label for="username">Name</label>
+      </div>
+      <div class="form-floating my-3">
+        <input type="text" class="form-control" id="lastName" name="last-name" placeholder="Last Name" required="true">
+        <label for="last-name">Last name</label>
+      </div>
+      <div class="form-floating my-3">
+        <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" required="true">
+        <label for="email">Email address</label>
+      </div>
+      <div class="text-center">
+        <button type="submit" id="btn-save" class="btn btn-success">Save</button>
+        <button type="reset" class="btn btn-danger">Cancel</button>
+      </div>
+    </form>
+  </main>
+  
+  <footer></footer>
+
+  <script type="module" src="./src/js/main.js"></script>
+</body>
+
+</html>
